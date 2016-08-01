@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		// Cache selector in a variable
 		// to improve speed.
 		var $tabs = $( '.srpw-form-tabs' ),
-		    $tax  = $( '.horizontal-tabs' );
+		    $hor  = $( '.horizontal-tabs' );
 
 		// Initialize the jQuery UI tabs
 		$tabs.tabs({
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		$tabs.closest( '.widget-inside' ).addClass( 'srpw-bg' );
 
 		// Initialize the jQuery UI tabs
-		$tax.tabs().addClass( 'ui-tabs-horizontal' );
+		$hor.tabs().addClass( 'ui-tabs-horizontal' );
 
 	});
 </script>
