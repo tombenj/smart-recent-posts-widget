@@ -1,0 +1,296 @@
+# Copyright (C) 2016 6 Hour Creative
+# This file is distributed under the same license as the Smart Recent Posts Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Recent Posts Widget 0.0.1\n"
+"Report-Msgid-Bugs-To: https://6hourcreative.com/\n"
+"POT-Creation-Date: 2016-08-01 04:09:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 6 Hour Creative (hi@6hourcreative.com)\n"
+"Language-Team: 6 Hour Creative (hi@6hourcreative.com)\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: classes/widget.php:16
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"site’s most recent Posts."
+msgstr ""
+
+#: classes/widget.php:27
+msgid "Smart Recent Posts"
+msgstr ""
+
+#: includes/form.php:40
+msgid "General"
+msgstr ""
+
+#: includes/form.php:41
+msgid "Posts"
+msgstr ""
+
+#: includes/form.php:42
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/form.php:43
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/form.php:44
+msgid "Excerpt"
+msgstr ""
+
+#: includes/form.php:45
+msgid "Meta"
+msgstr ""
+
+#: includes/form.php:46 includes/form.php:382
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/form.php:55 includes/form.php:166
+msgid "Title"
+msgstr ""
+
+#: includes/form.php:62
+msgid "Title URL"
+msgstr ""
+
+#: includes/form.php:69
+msgid "CSS Class"
+msgstr ""
+
+#: includes/form.php:76
+msgid "HTML or text before the recent posts"
+msgstr ""
+
+#: includes/form.php:83
+msgid "HTML or text after the recent posts"
+msgstr ""
+
+#: includes/form.php:95
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: includes/form.php:102
+msgid "Exclude current post"
+msgstr ""
+
+#: includes/form.php:108
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/form.php:115
+msgid "Offset"
+msgstr ""
+
+#: includes/form.php:118
+msgid "The number of posts to skip"
+msgstr ""
+
+#: includes/form.php:123
+msgid "Post Types"
+msgstr ""
+
+#: includes/form.php:135
+msgid "Please note, Media post type is not supported by this plugin yet."
+msgstr ""
+
+#: includes/form.php:140
+msgid "Post Status"
+msgstr ""
+
+#: includes/form.php:151
+msgid "Order"
+msgstr ""
+
+#: includes/form.php:154
+msgid "Descending"
+msgstr ""
+
+#: includes/form.php:155
+msgid "Ascending"
+msgstr ""
+
+#: includes/form.php:161
+msgid "Orderby"
+msgstr ""
+
+#: includes/form.php:164
+msgid "ID"
+msgstr ""
+
+#: includes/form.php:165
+msgid "Author"
+msgstr ""
+
+#: includes/form.php:167
+msgid "Date"
+msgstr ""
+
+#: includes/form.php:168
+msgid "Modified"
+msgstr ""
+
+#: includes/form.php:169
+msgid "Random"
+msgstr ""
+
+#: includes/form.php:170
+msgid "Comment Count"
+msgstr ""
+
+#: includes/form.php:171
+msgid "Menu Order"
+msgstr ""
+
+#: includes/form.php:182
+msgid "Limit"
+msgstr ""
+
+#: includes/form.php:183
+msgid "Exclude"
+msgstr ""
+
+#: includes/form.php:190
+msgid "Limit to categories"
+msgstr ""
+
+#: includes/form.php:206
+msgid "Limit to tags"
+msgstr ""
+
+#: includes/form.php:226
+msgid "Exclude categories"
+msgstr ""
+
+#: includes/form.php:242
+msgid "Exclude tags"
+msgstr ""
+
+#: includes/form.php:269
+msgid "Display Thumbnail"
+msgstr ""
+
+#: includes/form.php:275
+msgid "Thumbnail Size "
+msgstr ""
+
+#: includes/form.php:286
+msgid "Thumbnail Alignment"
+msgstr ""
+
+#: includes/form.php:289
+msgid "Left"
+msgstr ""
+
+#: includes/form.php:290
+msgid "Right"
+msgstr ""
+
+#: includes/form.php:291
+msgid "Center"
+msgstr ""
+
+#: includes/form.php:297
+msgid "Default Thumbnail"
+msgstr ""
+
+#: includes/form.php:300
+msgid "Leave it blank to disable."
+msgstr ""
+
+#: includes/form.php:312
+msgid "Display Excerpt"
+msgstr ""
+
+#: includes/form.php:318
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/form.php:326
+msgid "Display Readmore"
+msgstr ""
+
+#: includes/form.php:332
+msgid "Readmore Text"
+msgstr ""
+
+#: includes/form.php:344
+msgid "Display Date"
+msgstr ""
+
+#: includes/form.php:351
+msgid "Display Comment Count"
+msgstr ""
+
+#: includes/form.php:358
+msgid "Display Author"
+msgstr ""
+
+#: includes/form.php:365
+msgid "Display Modification Date"
+msgstr ""
+
+#: includes/form.php:372
+msgid "Use Relative Date. eg: 5 days ago"
+msgstr ""
+
+#: includes/functions.php:14
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/functions.php:40
+msgid "Read More &raquo;"
+msgstr ""
+
+#: includes/functions.php:137 includes/functions.php:143
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:150
+msgid "No Comments"
+msgstr ""
+
+#: includes/functions.php:152
+msgid "%s Comments"
+msgstr ""
+
+#: includes/functions.php:154
+msgid "1 Comment"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Recent Posts Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/6hourcreative/smart-recent-posts-widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Enables advanced widget that gives you total control over the output of "
+"your site’s most recent Posts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "6 Hour Creative"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://6hourcreative.com/"
+msgstr ""

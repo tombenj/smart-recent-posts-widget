@@ -1,0 +1,97 @@
+.srpw-bg {
+	background-color: #f3f3f3;
+}
+
+.srpw-bg .widget-control-actions {
+	clear: both;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav {
+	float: left;
+	width: 8em;
+	padding: 1em 0;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	margin-bottom: 0;
+	padding: .8em 0 .8em 1em;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-state-focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
+	text-decoration: none;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav li a:focus {
+	box-shadow: none;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	background-color: #fff;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-horizontal .ui-tabs-nav {
+	float: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-horizontal .ui-tabs-nav li {
+	float: left;
+	width: auto;
+	clear: none;
+	padding: .8em 1em;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .ui-tabs-horizontal .ui-tabs-nav li.ui-tabs-active {
+	background-color: #f3f3f3;
+}
+
+.srpw-form-tabs.ui-tabs-vertical .srpw-tabs-content {
+	overflow: hidden;
+	min-height: 20em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em 1.5em 1em 1.5em;
+	background-color: #fff;
+}
+
+.srpw-tab-content p {
+	margin-bottom: 1.5em;
+}
+
+.srpw-tab-content small {
+	font-style: italic;
+	color: #777;
+}
+
+.srpw-multiple-check-form {
+	margin: 1em 0;
+}
+
+.srpw-multiple-check-form label {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.srpw-multiple-check-form ul {
+	border: 1px solid #eee;
+	padding: 10px;
+	max-height: 110px;
+	overflow: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.srpw-multiple-check-form ul li:last-child {
+	margin-bottom: 0;
+}

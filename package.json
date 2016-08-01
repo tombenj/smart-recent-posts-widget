@@ -1,0 +1,16 @@
+{
+  "name": "smart-recent-posts-widget",
+  "author": "6 Hour Creative",
+  "homepage": "https://6hourcreative.com/",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-wp-i18n": "^0.5.4",
+    "jit-grunt": "^0.10.0"
+  }
+}

@@ -1,0 +1,60 @@
+.srpw-block ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.srpw-block li {
+	list-style-type: none;
+}
+.srpw-block a {
+	display: inline;
+	text-decoration: none;
+}
+.srpw-meta {
+	display: block;
+}
+.srpw-summary {
+	font-size:13px;
+}
+.srpw-time {
+	display: inline-block;
+	font-size: 13px;
+}
+.srpw-comment,
+.srpw-author {
+	font-size:13px;
+	padding-left:5px;
+	position: relative;
+}
+.srpw-comment::before,
+.srpw-author::before {
+	content: "\00b7";
+	display: inline-block;
+	color: initial;
+	padding-right: 6px;
+}
+.srpw-alignleft {
+	display:inline;
+	float:left;
+	margin-right: 1.5em;
+}
+.srpw-alignright {
+	display:inline;
+	float:right;
+	margin-left: 1.5em;
+}
+.srpw-aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.srpw-clearfix:before,.srpw-clearfix:after {
+	content:"";
+	display:table !important;
+}
+.srpw-clearfix:after {
+	clear:both;
+}
+.srpw-clearfix {
+	zoom: 1;
+}
