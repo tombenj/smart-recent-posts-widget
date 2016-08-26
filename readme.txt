@@ -2,8 +2,8 @@
 Contributors: 6hourcreative, satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets
 Requires at least: 4.5
-Tested up to: 4.5.3
-Stable tag: 0.0.1
+Tested up to: 4.6
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,7 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Selected or multiple post types
 * Selected or multiple categories
 * Selected or multiple tags
+* Include or Exclude Categories
 * Post status
 * Custom html or text before and/or after recent posts
 * Orderby date, comment count, random, and more
@@ -37,11 +38,11 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-= Support =
+= Visit Us =
 
-* [Forum support](http://wordpress.org/support/plugin/smart-recent-posts-widget).
-* [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/smart-recent-posts-widget).
-* [Submit translation](https://github.com/6hourcreative/smart-recent-posts-widget/issues).
+* Twitter - [https://twitter.com/6hourcreative](https://twitter.com/6hourcreative)
+* Facebook - [https://www.facebook.com/6hourcreative/](https://www.facebook.com/6hourcreative/)
+* Website - [https://6hourcreative.com](https://6hourcreative.com)
 
 == Installation ==
 
@@ -117,6 +118,9 @@ srpw_default_query_arguments
 7. Custom CSS settings
 
 == Changelog ==
+
+= 0.0.2 - August 26, 2016 =
+- Support WordPress 4.6
 
 = 0.0.1 - August 1, 2016 =
 - Initial release

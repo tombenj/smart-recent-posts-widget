@@ -3,7 +3,7 @@
  * Plugin Name:  Smart Recent Posts Widget
  * Plugin URI:   https://github.com/6hourcreative/smart-recent-posts-widget
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      0.0.1
+ * Version:      0.0.2
  * Author:       6 Hour Creative
  * Author URI:   https://6hourcreative.com/
  * Author Email: hi@6hourcreative.com
