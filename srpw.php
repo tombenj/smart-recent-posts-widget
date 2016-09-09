@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:  Smart Recent Posts Widget
- * Plugin URI:   https://github.com/6hourcreative/smart-recent-posts-widget
+ * Plugin URI:   https://6hourcreative.com/plugins/smart-recent-posts-widget/
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      0.0.2
+ * Version:      0.0.3
  * Author:       6 Hour Creative
  * Author URI:   https://6hourcreative.com/
  * Author Email: hi@6hourcreative.com
@@ -69,9 +69,6 @@ class SMART_RPW {
 		// Set the constant path to the includes directory.
 		define( 'SRPW_INCLUDES', SRPW_DIR . trailingslashit( 'includes' ) );
 
-		// Set the constant path to the includes directory.
-		define( 'SRPW_CLASS', SRPW_DIR . trailingslashit( 'classes' ) );
-
 		// Set the constant path to the assets directory.
 		define( 'SRPW_ASSETS', SRPW_URI . trailingslashit( 'assets' ) );
 
@@ -90,6 +87,7 @@ class SMART_RPW {
 	public function includes() {
 		require_once( SRPW_INCLUDES . 'functions.php' );
 		require_once( SRPW_INCLUDES . 'helpers.php' );
+		require_once( SRPW_INCLUDES . 'widget.php' );
 	}
 
 	/**
@@ -104,7 +102,6 @@ class SMART_RPW {
 	 * Register the widget.
 	 */
 	public function register_widget() {
-		require_once( SRPW_CLASS . 'widget.php' );
 		register_widget( 'SMART_RECENT_POSTS_WIDGET' );
 	}
 

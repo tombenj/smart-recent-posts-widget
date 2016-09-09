@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Smart Recent Posts Widget package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Smart Recent Posts Widget 0.0.1\n"
+"Project-Id-Version: Smart Recent Posts Widget 0.0.3\n"
 "Report-Msgid-Bugs-To: https://6hourcreative.com/\n"
-"POT-Creation-Date: 2016-08-01 04:09:11+00:00\n"
+"POT-Creation-Date: 2016-09-09 18:00:28+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,254 +23,286 @@ msgstr ""
 "x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Textdomain-Support: yes\n"
 
-#: classes/widget.php:16
+#: includes/functions.php:16
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "Read More &raquo;"
+msgstr ""
+
+#: includes/functions.php:156 includes/functions.php:162
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:169
+msgid "No Comments"
+msgstr ""
+
+#: includes/functions.php:171
+msgid "%s Comments"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "1 Comment"
+msgstr ""
+
+#: includes/widget.php:16
 msgid ""
 "An advanced widget that gives you total control over the output of your "
 "site’s most recent Posts."
 msgstr ""
 
-#: classes/widget.php:27
+#: includes/widget.php:27
 msgid "Smart Recent Posts"
 msgstr ""
 
-#: includes/form.php:40
+#: includes/widget.php:191
 msgid "General"
 msgstr ""
 
-#: includes/form.php:41
+#: includes/widget.php:192
 msgid "Posts"
 msgstr ""
 
-#: includes/form.php:42
+#: includes/widget.php:193
 msgid "Taxonomy"
 msgstr ""
 
-#: includes/form.php:43
+#: includes/widget.php:194
 msgid "Thumbnail"
 msgstr ""
 
-#: includes/form.php:44
+#: includes/widget.php:195
 msgid "Excerpt"
 msgstr ""
 
-#: includes/form.php:45
-msgid "Meta"
+#: includes/widget.php:196
+msgid "Display"
 msgstr ""
 
-#: includes/form.php:46 includes/form.php:382
-msgid "Custom CSS"
+#: includes/widget.php:197
+msgid "Appearance"
 msgstr ""
 
-#: includes/form.php:55 includes/form.php:166
+#: includes/widget.php:206 includes/widget.php:317
 msgid "Title"
 msgstr ""
 
-#: includes/form.php:62
+#: includes/widget.php:213
 msgid "Title URL"
 msgstr ""
 
-#: includes/form.php:69
+#: includes/widget.php:220
 msgid "CSS Class"
 msgstr ""
 
-#: includes/form.php:76
+#: includes/widget.php:227
 msgid "HTML or text before the recent posts"
 msgstr ""
 
-#: includes/form.php:83
+#: includes/widget.php:234
 msgid "HTML or text after the recent posts"
 msgstr ""
 
-#: includes/form.php:95
+#: includes/widget.php:246
 msgid "Ignore sticky posts"
 msgstr ""
 
-#: includes/form.php:102
+#: includes/widget.php:253
 msgid "Exclude current post"
 msgstr ""
 
-#: includes/form.php:108
+#: includes/widget.php:259
 msgid "Number of posts to show"
 msgstr ""
 
-#: includes/form.php:115
+#: includes/widget.php:266
 msgid "Offset"
 msgstr ""
 
-#: includes/form.php:118
+#: includes/widget.php:269
 msgid "The number of posts to skip"
 msgstr ""
 
-#: includes/form.php:123
+#: includes/widget.php:274
 msgid "Post Types"
 msgstr ""
 
-#: includes/form.php:135
+#: includes/widget.php:286
 msgid "Please note, Media post type is not supported by this plugin yet."
 msgstr ""
 
-#: includes/form.php:140
+#: includes/widget.php:291
 msgid "Post Status"
 msgstr ""
 
-#: includes/form.php:151
+#: includes/widget.php:302
 msgid "Order"
 msgstr ""
 
-#: includes/form.php:154
+#: includes/widget.php:305
 msgid "Descending"
 msgstr ""
 
-#: includes/form.php:155
+#: includes/widget.php:306
 msgid "Ascending"
 msgstr ""
 
-#: includes/form.php:161
+#: includes/widget.php:312
 msgid "Orderby"
 msgstr ""
 
-#: includes/form.php:164
+#: includes/widget.php:315
 msgid "ID"
 msgstr ""
 
-#: includes/form.php:165
+#: includes/widget.php:316
 msgid "Author"
 msgstr ""
 
-#: includes/form.php:167
+#: includes/widget.php:318
 msgid "Date"
 msgstr ""
 
-#: includes/form.php:168
+#: includes/widget.php:319
 msgid "Modified"
 msgstr ""
 
-#: includes/form.php:169
+#: includes/widget.php:320
 msgid "Random"
 msgstr ""
 
-#: includes/form.php:170
+#: includes/widget.php:321
 msgid "Comment Count"
 msgstr ""
 
-#: includes/form.php:171
+#: includes/widget.php:322
 msgid "Menu Order"
 msgstr ""
 
-#: includes/form.php:182
+#: includes/widget.php:333
 msgid "Limit"
 msgstr ""
 
-#: includes/form.php:183
+#: includes/widget.php:334
 msgid "Exclude"
 msgstr ""
 
-#: includes/form.php:190
+#: includes/widget.php:341
 msgid "Limit to categories"
 msgstr ""
 
-#: includes/form.php:206
+#: includes/widget.php:357
 msgid "Limit to tags"
 msgstr ""
 
-#: includes/form.php:226
+#: includes/widget.php:377
 msgid "Exclude categories"
 msgstr ""
 
-#: includes/form.php:242
+#: includes/widget.php:393
 msgid "Exclude tags"
 msgstr ""
 
-#: includes/form.php:269
+#: includes/widget.php:420
 msgid "Display Thumbnail"
 msgstr ""
 
-#: includes/form.php:275
+#: includes/widget.php:426
 msgid "Thumbnail Size "
 msgstr ""
 
-#: includes/form.php:286
+#: includes/widget.php:437
 msgid "Thumbnail Alignment"
 msgstr ""
 
-#: includes/form.php:289
+#: includes/widget.php:440
 msgid "Left"
 msgstr ""
 
-#: includes/form.php:290
+#: includes/widget.php:441
 msgid "Right"
 msgstr ""
 
-#: includes/form.php:291
+#: includes/widget.php:442
 msgid "Center"
 msgstr ""
 
-#: includes/form.php:297
+#: includes/widget.php:448
 msgid "Default Thumbnail"
 msgstr ""
 
-#: includes/form.php:300
+#: includes/widget.php:451
 msgid "Leave it blank to disable."
 msgstr ""
 
-#: includes/form.php:312
+#: includes/widget.php:463
 msgid "Display Excerpt"
 msgstr ""
 
-#: includes/form.php:318
+#: includes/widget.php:469
 msgid "Excerpt Length"
 msgstr ""
 
-#: includes/form.php:326
+#: includes/widget.php:477
 msgid "Display Readmore"
 msgstr ""
 
-#: includes/form.php:332
+#: includes/widget.php:483
 msgid "Readmore Text"
 msgstr ""
 
-#: includes/form.php:344
+#: includes/widget.php:495
+msgid "Display Title"
+msgstr ""
+
+#: includes/widget.php:502
 msgid "Display Date"
 msgstr ""
 
-#: includes/form.php:351
+#: includes/widget.php:509
 msgid "Display Comment Count"
 msgstr ""
 
-#: includes/form.php:358
+#: includes/widget.php:516
 msgid "Display Author"
 msgstr ""
 
-#: includes/form.php:365
+#: includes/widget.php:523
 msgid "Display Modification Date"
 msgstr ""
 
-#: includes/form.php:372
+#: includes/widget.php:530
 msgid "Use Relative Date. eg: 5 days ago"
 msgstr ""
 
-#: includes/functions.php:14
-msgid "Recent Posts"
+#: includes/widget.php:540
+msgid "Style"
 msgstr ""
 
-#: includes/functions.php:40
-msgid "Read More &raquo;"
+#: includes/widget.php:543
+msgid "Default"
 msgstr ""
 
-#: includes/functions.php:137 includes/functions.php:143
-msgid "%s ago"
+#: includes/widget.php:544
+msgid "Classic"
 msgstr ""
 
-#: includes/functions.php:150
-msgid "No Comments"
+#: includes/widget.php:545
+msgid "Modern"
 msgstr ""
 
-#: includes/functions.php:152
-msgid "%s Comments"
+#: includes/widget.php:547
+msgid "Please follow %1$sthis guidelines%2$s to get the best result."
 msgstr ""
 
-#: includes/functions.php:154
-msgid "1 Comment"
+#: includes/widget.php:553
+msgid "Open link in new tab"
+msgstr ""
+
+#: includes/widget.php:559
+msgid "Custom CSS"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -278,7 +310,7 @@ msgid "Smart Recent Posts Widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/6hourcreative/smart-recent-posts-widget"
+msgid "https://6hourcreative.com/plugins/smart-recent-posts-widget/"
 msgstr ""
 
 #. Description of the plugin/theme

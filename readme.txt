@@ -2,8 +2,8 @@
 Contributors: 6hourcreative, satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets
 Requires at least: 4.5
-Tested up to: 4.6
-Stable tag: 0.0.2
+Tested up to: 4.6.1
+Stable tag: 0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,16 +11,22 @@ Smart recent posts widget. Provides advanced recent posts widget. Display it wit
 
 == Description ==
 
-_The author is formerly Recent Posts Widget Extended author_
-
-This plugin will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more!
+This plugin will enable a flexible and highly customizable [recent posts widget](https://6hourcreative.com/plugins/smart-recent-posts-widget/). Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more!
 
 = Install, Activate the widget, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
 
 = Features Include =
 
-* Allow you to set title url.
+**New Features**
+
+* **Style**: Choose 3 different posts list style
+* Open link in new tab
+* Show/hide post title
+
+**Features**
+
+* Allow you to set title url
 * Selected or multiple post types
 * Selected or multiple categories
 * Selected or multiple tags
@@ -37,6 +43,8 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Exclude current post
 * Custom CSS
 * Multiple widgets
+
+If you want to contribute, we host the plugin on github: [https://github.com/6hourcreative/smart-recent-posts-widget](https://github.com/6hourcreative/smart-recent-posts-widget)
 
 = Visit Us =
 
@@ -109,15 +117,60 @@ srpw_default_query_arguments
 
 == Screenshots ==
 
-1. General settings
-2. Posts settings
-3. Taxonomy settings
-4. Thumbnail settings
-5. Excerpt settings
-6. Meta settings
-7. Custom CSS settings
+1. Modern style, tested with default theme Twenty Sixteen
+2. Classic style
+3. Default style
+4. General settings
+5. Posts settings
+6. Taxonomy settings
+7. Thumbnail settings
+8. Excerpt settings
+9. Display settings
+10. Appearance settings
+
+== Style Explanation ==
+
+In version `0.0.3` we provide new **Style** option, there are 3 style you can choose:
+
+- Default
+- Classic
+- Modern
+
+**Default**
+This is just a basic style, the posts list style follow your theme stylesheet.
+
+**Classic**
+Classic style is a basic style with some little improvement, it adds a nice border bottom to each list to seperate them and change the font color and size of the post meta and excerpt. This style works with whatever setting you choose, either small thumbnail or big thumbnail with centered position.
+
+**Modern**
+Modern style adds a nice opacity to the thumbnail and display the title on the corner of the thumbnail. This style **only** works perfectly with some condition, if you want to get the best result please follow below steps:
+
+- Switch the **Thumbnail Size** to _medium_
+- **Only** display the title, please uncheck another data such as **date**, **comment count**, **author**, etc.
+- Remove everything inside the **Custom CSS** box.
+- Switch the Style option to **Modern**
+- Done!
+
+Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
+
+= 0.0.3 - Sept 10, 2016 =
+
+**New Features:**
+
+- **Style** option, we provide 3 list styles:
+	- Default
+	- Classic
+	- Modern
+- Show hide post title
+- Open link in new tab
+
+**Bug Fixes:**
+
+- Author url not linked properly
+
+---
 
 = 0.0.2 - August 26, 2016 =
 - Support WordPress 4.6
