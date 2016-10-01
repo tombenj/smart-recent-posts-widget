@@ -1,9 +1,9 @@
 === Smart Recent Posts Widget ===
-Contributors: 6hourcreative, satrya
+Contributors: satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets
 Requires at least: 4.5
 Tested up to: 4.6.1
-Stable tag: 0.0.3
+Stable tag: 0.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,21 +11,18 @@ Smart recent posts widget. Provides advanced recent posts widget. Display it wit
 
 == Description ==
 
-This plugin will enable a flexible and highly customizable [recent posts widget](https://6hourcreative.com/plugins/smart-recent-posts-widget/). Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more!
+**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support[Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/).
+
+Please check the plugin page: [https://satrya.me/portfolio/smart-recent-posts-widget/](https://satrya.me/portfolio/smart-recent-posts-widget/)
 
 = Install, Activate the widget, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
 
 = Features Include =
 
-**New Features**
-
 * **Style**: Choose 3 different posts list style
 * Open link in new tab
 * Show/hide post title
-
-**Features**
-
 * Allow you to set title url
 * Selected or multiple post types
 * Selected or multiple categories
@@ -44,13 +41,9 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-If you want to contribute, we host the plugin on github: [https://github.com/6hourcreative/smart-recent-posts-widget](https://github.com/6hourcreative/smart-recent-posts-widget)
+**Open Source**
 
-= Visit Us =
-
-* Twitter - [https://twitter.com/6hourcreative](https://twitter.com/6hourcreative)
-* Facebook - [https://www.facebook.com/6hourcreative/](https://www.facebook.com/6hourcreative/)
-* Website - [https://6hourcreative.com](https://6hourcreative.com)
+If you want to contribute, we hosted the plugin on github: [https://github.com/satrya/smart-recent-posts-widget](https://github.com/satrya/smart-recent-posts-widget)
 
 == Installation ==
 
@@ -155,11 +148,16 @@ Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
 
+= 0.0.4 - Oct 01, 2016 =
+
+- Maintenance release
+- Support [Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/)
+
 = 0.0.3 - Sept 10, 2016 =
 
 **New Features:**
 
-- **Style** option, we provide 3 list styles:
+- Style option, we provide 3 list styles:
 	- Default
 	- Classic
 	- Modern
@@ -169,8 +167,6 @@ Please open the **Screenshot** tab above to see the style design.
 **Bug Fixes:**
 
 - Author url not linked properly
-
----
 
 = 0.0.2 - August 26, 2016 =
 - Support WordPress 4.6

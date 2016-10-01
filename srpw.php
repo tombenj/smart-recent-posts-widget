@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name:  Smart Recent Posts Widget
- * Plugin URI:   https://6hourcreative.com/plugins/smart-recent-posts-widget/
+ * Plugin URI:   https://satrya.me/portfolio/smart-recent-posts-widget/
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      0.0.3
- * Author:       6 Hour Creative
- * Author URI:   https://6hourcreative.com/
- * Author Email: hi@6hourcreative.com
+ * Version:      0.0.4
+ * Author:       Satrya
+ * Author URI:   https://satrya.me/
+ * Author Email: satrya@satrya.me
  * Text Domain:  smart-recent-posts-widget
  * Domain Path:  /languages
  *
