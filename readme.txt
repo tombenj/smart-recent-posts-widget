@@ -11,7 +11,7 @@ Smart recent posts widget. Provides advanced recent posts widget. Display it wit
 
 == Description ==
 
-**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support[Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/).
+**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support [Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/).
 
 Please check the plugin page: [https://satrya.me/portfolio/smart-recent-posts-widget/](https://satrya.me/portfolio/smart-recent-posts-widget/)
 
