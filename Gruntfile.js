@@ -17,10 +17,10 @@ module.exports = function( grunt ) {
 					type: 'wp-plugin', // Type of project (wp-plugin or wp-theme).
 					updateTimestamp: true, // Whether the POT-Creation-Date should be updated without other changes.
 					processPot: function( pot, options ) {
-						pot.headers[ 'report-msgid-bugs-to' ] = 'https://6hourcreative.com/';
+						pot.headers[ 'report-msgid-bugs-to' ] = 'https://satrya.me/';
 						pot.headers[ 'plural-forms' ] = 'nplurals=2; plural=n != 1;';
-						pot.headers[ 'last-translator' ] = '6 Hour Creative (hi@6hourcreative.com)\n';
-						pot.headers[ 'language-team' ] = '6 Hour Creative (hi@6hourcreative.com)\n';
+						pot.headers[ 'last-translator' ] = 'Satrya (satrya@satrya.me)\n';
+						pot.headers[ 'language-team' ] = 'Satrya (satrya@satrya.me)\n';
 						pot.headers[ 'x-poedit-basepath' ] = '..\n';
 						pot.headers[ 'x-poedit-language' ] = 'English\n';
 						pot.headers[ 'x-poedit-country' ] = 'UNITED STATES\n';
