@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:  Smart Recent Posts Widget
- * Plugin URI:   https://satrya.me/portfolio/smart-recent-posts-widget/
+ * Plugin URI:   https://github.com/satrya/smart-recent-posts-widget
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      0.0.4
+ * Version:      0.0.5
  * Author:       Satrya
  * Author URI:   https://satrya.me/
  * Author Email: satrya@satrya.me

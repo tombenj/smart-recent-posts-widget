@@ -2,8 +2,8 @@
 Contributors: satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets
 Requires at least: 4.5
-Tested up to: 4.6.1
-Stable tag: 0.0.4
+Tested up to: 4.9.5
+Stable tag: 0.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,9 +11,7 @@ Smart recent posts widget. Provides advanced recent posts widget. Display it wit
 
 == Description ==
 
-**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support [Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/).
-
-Please check the plugin page: [https://satrya.me/portfolio/smart-recent-posts-widget/](https://satrya.me/portfolio/smart-recent-posts-widget/)
+**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin**.
 
 = Install, Activate the widget, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
@@ -148,28 +146,10 @@ Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
 
-= 0.0.4 - Oct 01, 2016 =
+= 0.0.5 - May 11, 2018 =
+* Support WordPress 4.9.5
 
+= 0.0.4 - Oct 01, 2016 =
 - Maintenance release
 - Support [Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/)
 
-= 0.0.3 - Sept 10, 2016 =
-
-**New Features:**
-
-- Style option, we provide 3 list styles:
-	- Default
-	- Classic
-	- Modern
-- Show hide post title
-- Open link in new tab
-
-**Bug Fixes:**
-
-- Author url not linked properly
-
-= 0.0.2 - August 26, 2016 =
-- Support WordPress 4.6
-
-= 0.0.1 - August 1, 2016 =
-- Initial release
