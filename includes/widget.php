@@ -195,6 +195,7 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
 				<li><a href="#tab-5"><?php esc_html_e( 'Excerpt', 'smart-recent-posts-widget' ); ?></a></li>
 				<li><a href="#tab-6"><?php esc_html_e( 'Display', 'smart-recent-posts-widget' ); ?></a></li>
 				<li><a href="#tab-7"><?php esc_html_e( 'Appearance', 'smart-recent-posts-widget' ); ?></a></li>
+				<li><a href="#tab-8"><?php esc_html_e( 'Thank You', 'smart-recent-posts-widget' ); ?></a></li>
 			</ul>
 
 			<div class="srpw-tabs-content">
@@ -544,7 +545,7 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
 							<option value="classic" <?php selected( $instance['style'], 'classic' ); ?>><?php esc_html_e( 'Classic', 'srpw' ) ?></option>
 							<option value="modern" <?php selected( $instance['style'], 'modern' ); ?>><?php esc_html_e( 'Modern', 'srpw' ) ?></option>
 						</select>
-						<small><?php printf( esc_html__( 'Please follow %1$sthis guidelines%2$s to get the best result.', 'smart-recent-posts-widget' ), '<a href="https://wordpress.org/plugins/smart-recent-posts-widget/other_notes" target="_blank">', '</a>' ); ?></small>
+						<small><?php printf( esc_html__( 'Please follow %1$sthis guidelines%2$s to get the best result.', 'smart-recent-posts-widget' ), '<a href="https://wordpress.org/plugins/smart-recent-posts-widget" target="_blank">', '</a>' ); ?></small>
 					</p>
 
 					<p>
@@ -562,6 +563,19 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
 					</p>
 
 				</div><!-- #tab-7 -->
+
+				<div id="tab-8" class="srpw-tab-content">
+
+					<p>
+						<p>Thank you for using this plugin, I hope you enjoy it and don't forget to <a href="https://wordpress.org/support/plugin/smart-recent-posts-widget/reviews/" target="_blank">leave a 5 star review</a>.</p>
+						<p>If you want to support me, you can:</p>
+						<ul>
+							<li>• Purchase my <a href="https://www.fiverr.com/idenovasi" target="_blank">Gigs</a> on Fiverr.</li>
+							<li>• Purchase or download my <a href="https://wp.idenovasi.com/" target="_blank">WordPress themes</a>.</li>
+						</ul>
+					</p>
+
+				</div><!-- #tab-8 -->
 
 			</div><!-- .srpw-tabs-content -->
 

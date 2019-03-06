@@ -12,6 +12,11 @@
 	padding: 10px 0;
 }
 
+.widget .srpw-block li.srpw-li::before {
+	display: none;
+	content: "";
+}
+
 .srpw-block li:first-child {
 	padding-top: 0;
 }
@@ -132,6 +137,11 @@
 
 .srpw-modern-style .srpw-img {
 	position: relative !important;
+	display: block;
+}
+
+.srpw-modern-style .srpw-img img {
+	display: block;
 }
 
 .srpw-modern-style .srpw-img::after {
@@ -157,9 +167,9 @@
 
 .srpw-modern-style .srpw-content {
 	position: absolute;
-	bottom: 10px;
-	left: 0;
-	padding: 20px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
 }
 
 .srpw-modern-style .srpw-content a {

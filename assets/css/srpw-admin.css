@@ -59,7 +59,7 @@
 
 .srpw-form-tabs.ui-tabs-vertical .srpw-tabs-content {
 	overflow: hidden;
-	min-height: 20em;
+	min-height: 320px;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	padding: 1em 1.5em 1em 1.5em;

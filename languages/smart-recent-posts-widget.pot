@@ -1,17 +1,17 @@
-# Copyright (C) 2016 6 Hour Creative
+# Copyright (C) 2019 Idenovasi
 # This file is distributed under the same license as the Smart Recent Posts Widget package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Smart Recent Posts Widget 0.0.3\n"
-"Report-Msgid-Bugs-To: https://6hourcreative.com/\n"
-"POT-Creation-Date: 2016-09-09 18:00:28+00:00\n"
+"Project-Id-Version: Smart Recent Posts Widget 0.0.6\n"
+"Report-Msgid-Bugs-To: https://idenovasi.com/contact/\n"
+"POT-Creation-Date: 2019-03-06 16:35:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
-"Last-Translator: 6 Hour Creative (hi@6hourcreative.com)\n"
-"Language-Team: 6 Hour Creative (hi@6hourcreative.com)\n"
-"X-Generator: grunt-wp-i18n 0.5.4\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Idenovasi\n"
+"Language-Team: Idenovasi\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Language: English\n"
@@ -85,223 +85,227 @@ msgstr ""
 msgid "Appearance"
 msgstr ""
 
-#: includes/widget.php:206 includes/widget.php:317
+#: includes/widget.php:198
+msgid "Thank You"
+msgstr ""
+
+#: includes/widget.php:207 includes/widget.php:318
 msgid "Title"
 msgstr ""
 
-#: includes/widget.php:213
+#: includes/widget.php:214
 msgid "Title URL"
 msgstr ""
 
-#: includes/widget.php:220
+#: includes/widget.php:221
 msgid "CSS Class"
 msgstr ""
 
-#: includes/widget.php:227
+#: includes/widget.php:228
 msgid "HTML or text before the recent posts"
 msgstr ""
 
-#: includes/widget.php:234
+#: includes/widget.php:235
 msgid "HTML or text after the recent posts"
 msgstr ""
 
-#: includes/widget.php:246
+#: includes/widget.php:247
 msgid "Ignore sticky posts"
 msgstr ""
 
-#: includes/widget.php:253
+#: includes/widget.php:254
 msgid "Exclude current post"
 msgstr ""
 
-#: includes/widget.php:259
+#: includes/widget.php:260
 msgid "Number of posts to show"
 msgstr ""
 
-#: includes/widget.php:266
+#: includes/widget.php:267
 msgid "Offset"
 msgstr ""
 
-#: includes/widget.php:269
+#: includes/widget.php:270
 msgid "The number of posts to skip"
 msgstr ""
 
-#: includes/widget.php:274
+#: includes/widget.php:275
 msgid "Post Types"
 msgstr ""
 
-#: includes/widget.php:286
+#: includes/widget.php:287
 msgid "Please note, Media post type is not supported by this plugin yet."
 msgstr ""
 
-#: includes/widget.php:291
+#: includes/widget.php:292
 msgid "Post Status"
 msgstr ""
 
-#: includes/widget.php:302
+#: includes/widget.php:303
 msgid "Order"
 msgstr ""
 
-#: includes/widget.php:305
+#: includes/widget.php:306
 msgid "Descending"
 msgstr ""
 
-#: includes/widget.php:306
+#: includes/widget.php:307
 msgid "Ascending"
 msgstr ""
 
-#: includes/widget.php:312
+#: includes/widget.php:313
 msgid "Orderby"
 msgstr ""
 
-#: includes/widget.php:315
+#: includes/widget.php:316
 msgid "ID"
 msgstr ""
 
-#: includes/widget.php:316
+#: includes/widget.php:317
 msgid "Author"
 msgstr ""
 
-#: includes/widget.php:318
+#: includes/widget.php:319
 msgid "Date"
 msgstr ""
 
-#: includes/widget.php:319
+#: includes/widget.php:320
 msgid "Modified"
 msgstr ""
 
-#: includes/widget.php:320
+#: includes/widget.php:321
 msgid "Random"
 msgstr ""
 
-#: includes/widget.php:321
+#: includes/widget.php:322
 msgid "Comment Count"
 msgstr ""
 
-#: includes/widget.php:322
+#: includes/widget.php:323
 msgid "Menu Order"
 msgstr ""
 
-#: includes/widget.php:333
+#: includes/widget.php:334
 msgid "Limit"
 msgstr ""
 
-#: includes/widget.php:334
+#: includes/widget.php:335
 msgid "Exclude"
 msgstr ""
 
-#: includes/widget.php:341
+#: includes/widget.php:342
 msgid "Limit to categories"
 msgstr ""
 
-#: includes/widget.php:357
+#: includes/widget.php:358
 msgid "Limit to tags"
 msgstr ""
 
-#: includes/widget.php:377
+#: includes/widget.php:378
 msgid "Exclude categories"
 msgstr ""
 
-#: includes/widget.php:393
+#: includes/widget.php:394
 msgid "Exclude tags"
 msgstr ""
 
-#: includes/widget.php:420
+#: includes/widget.php:421
 msgid "Display Thumbnail"
 msgstr ""
 
-#: includes/widget.php:426
+#: includes/widget.php:427
 msgid "Thumbnail Size "
 msgstr ""
 
-#: includes/widget.php:437
+#: includes/widget.php:438
 msgid "Thumbnail Alignment"
 msgstr ""
 
-#: includes/widget.php:440
+#: includes/widget.php:441
 msgid "Left"
 msgstr ""
 
-#: includes/widget.php:441
+#: includes/widget.php:442
 msgid "Right"
 msgstr ""
 
-#: includes/widget.php:442
+#: includes/widget.php:443
 msgid "Center"
 msgstr ""
 
-#: includes/widget.php:448
+#: includes/widget.php:449
 msgid "Default Thumbnail"
 msgstr ""
 
-#: includes/widget.php:451
+#: includes/widget.php:452
 msgid "Leave it blank to disable."
 msgstr ""
 
-#: includes/widget.php:463
+#: includes/widget.php:464
 msgid "Display Excerpt"
 msgstr ""
 
-#: includes/widget.php:469
+#: includes/widget.php:470
 msgid "Excerpt Length"
 msgstr ""
 
-#: includes/widget.php:477
+#: includes/widget.php:478
 msgid "Display Readmore"
 msgstr ""
 
-#: includes/widget.php:483
+#: includes/widget.php:484
 msgid "Readmore Text"
 msgstr ""
 
-#: includes/widget.php:495
+#: includes/widget.php:496
 msgid "Display Title"
 msgstr ""
 
-#: includes/widget.php:502
+#: includes/widget.php:503
 msgid "Display Date"
 msgstr ""
 
-#: includes/widget.php:509
+#: includes/widget.php:510
 msgid "Display Comment Count"
 msgstr ""
 
-#: includes/widget.php:516
+#: includes/widget.php:517
 msgid "Display Author"
 msgstr ""
 
-#: includes/widget.php:523
+#: includes/widget.php:524
 msgid "Display Modification Date"
 msgstr ""
 
-#: includes/widget.php:530
+#: includes/widget.php:531
 msgid "Use Relative Date. eg: 5 days ago"
 msgstr ""
 
-#: includes/widget.php:540
+#: includes/widget.php:541
 msgid "Style"
 msgstr ""
 
-#: includes/widget.php:543
+#: includes/widget.php:544
 msgid "Default"
 msgstr ""
 
-#: includes/widget.php:544
+#: includes/widget.php:545
 msgid "Classic"
 msgstr ""
 
-#: includes/widget.php:545
+#: includes/widget.php:546
 msgid "Modern"
 msgstr ""
 
-#: includes/widget.php:547
+#: includes/widget.php:548
 msgid "Please follow %1$sthis guidelines%2$s to get the best result."
 msgstr ""
 
-#: includes/widget.php:553
+#: includes/widget.php:554
 msgid "Open link in new tab"
 msgstr ""
 
-#: includes/widget.php:559
+#: includes/widget.php:560
 msgid "Custom CSS"
 msgstr ""
 
@@ -310,7 +314,7 @@ msgid "Smart Recent Posts Widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://6hourcreative.com/plugins/smart-recent-posts-widget/"
+msgid "https://github.com/idenovasi/smart-recent-posts-widget"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -320,9 +324,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "6 Hour Creative"
+msgid "Idenovasi"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://6hourcreative.com/"
+msgid "https://idenovasi.com/"
 msgstr ""

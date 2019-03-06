@@ -1,19 +1,19 @@
 === Smart Recent Posts Widget ===
-Contributors: satrya
-Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets
+Contributors: idenovasi, satrya
+Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
 Requires at least: 4.5
-Tested up to: 4.9.5
-Stable tag: 0.0.5
+Tested up to: 5.1
+Stable tag: 0.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Smart recent posts widget. Provides advanced recent posts widget. Display it with thumbnails, excerpt, date, author, comment count and more.
+Provides advanced recent posts widget,you can display it with thumbnails, excerpt, date, author, comment count and more.
 
 == Description ==
 
-**Smart recent posts widget** will enable a flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin**.
+**Smart recent posts widget** provides flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin** and **Elementor Page Builder**.
 
-= Install, Activate the widget, Done! =
+= Install, Activate, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
 
 = Features Include =
@@ -39,9 +39,12 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-**Open Source**
+= Support Me =
 
-If you want to contribute, we hosted the plugin on github: [https://github.com/satrya/smart-recent-posts-widget](https://github.com/satrya/smart-recent-posts-widget)
+* Purchase or download my [WordPress themes](https://wp.idenovasi.com/).
+* Purchase my [Services](https://www.fiverr.com/idenovasi).
+* Try another [WordPress plugin](https://profiles.wordpress.org/idenovasi/#content-plugins) from me.
+* Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).
 
 == Installation ==
 
@@ -146,10 +149,6 @@ Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
 
-= 0.0.5 - May 11, 2018 =
-* Support WordPress 4.9.5
-
-= 0.0.4 - Oct 01, 2016 =
-- Maintenance release
-- Support [Page Builder by Siteorigin](http://wordpress.org/plugins/siteorigin-panels/)
-
+= 0.0.6 - March 06, 2019 =
+* Support WordPress 5.1
+* Refine **Modern** type style
