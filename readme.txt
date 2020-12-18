@@ -1,9 +1,10 @@
 === Smart Recent Posts Widget ===
 Contributors: idenovasi, satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
-Requires at least: 4.5
-Tested up to: 5.3
-Stable tag: 0.0.6
+Requires at least: 5.0
+Tested up to: 5.6
+Stable tag: 1.0.0
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,11 +40,7 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-= Support Me =
-
-* I am a freelance WordPress designer & developer, hire me! [https://idenovasi.com/](https://idenovasi.com/).
-* Try another [WordPress plugin](https://profiles.wordpress.org/idenovasi/#content-plugins) from me.
-* Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).
+**Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).**
 
 == Installation ==
 
@@ -148,6 +145,5 @@ Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
 
-= 0.0.6 - March 06, 2019 =
-* Support WordPress 5.1
-* Refine **Modern** type style
+= 1.0.0 =
+* Support WordPress 5.6
