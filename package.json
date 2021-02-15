@@ -1,20 +1,35 @@
 {
-	"name": "smart-recent-posts-widget",
-	"version": "1.0.0",
-	"author": "Idenovasi",
-	"homepage": "https://idenovasi.com/",
-	"licenses": [
-		{
-			"type": "GPL",
-			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
-		}
-	],
-	"devDependencies": {
-		"grunt": "~1.3.0",
-		"grunt-wp-i18n": "^1.0.3",
-		"jit-grunt": "^0.10.0",
-		"grunt-contrib-clean": "^2.0.0",
-		"grunt-contrib-compress": "^2.0.0",
-		"grunt-contrib-copy": "^1.0.0"
-	}
+  "name": "smart-recent-posts-widget",
+  "version": "1.0.1",
+  "author": "Idenovasi",
+  "homepage": "https://idenovasi.com/",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-wp-pot": "^2.5.0",
+    "gulp-zip": "^5.0.2"
+  },
+  "description": "Smart recent posts widget provides flexible and highly customizable recent posts widget.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satrya/smart-recent-posts-widget.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/satrya/smart-recent-posts-widget/issues"
+  }
 }

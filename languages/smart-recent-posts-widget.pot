@@ -1,27 +1,17 @@
-# Copyright (C) 2020 Idenovasi
+# Copyright (C) 2021 Smart Recent Posts Widget
 # This file is distributed under the same license as the Smart Recent Posts Widget package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Smart Recent Posts Widget 1.0.0\n"
-"Report-Msgid-Bugs-To: https://idenovasi.com/contact/\n"
-"POT-Creation-Date: 2020-12-18 03:11:38+00:00\n"
+"Project-Id-Version: Smart Recent Posts Widget\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Idenovasi\n"
-"Language-Team: Idenovasi\n"
-"X-Generator: grunt-wp-i18n 1.0.3\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: UNITED STATES\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-KeywordsList: "
-"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_"
-"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: includes/functions.php:17
 msgid "Recent Posts"
@@ -31,26 +21,24 @@ msgstr ""
 msgid "Read More &raquo;"
 msgstr ""
 
-#: includes/functions.php:158 includes/functions.php:165
+#: includes/functions.php:165, includes/functions.php:158
 msgid "%s ago"
-msgstr ""
-
-#: includes/functions.php:172
-msgid "No Comments"
-msgstr ""
-
-#: includes/functions.php:174
-msgid "%s Comments"
 msgstr ""
 
 #: includes/functions.php:176
 msgid "1 Comment"
 msgstr ""
 
+#: includes/functions.php:174
+msgid "%s Comments"
+msgstr ""
+
+#: includes/functions.php:172
+msgid "No Comments"
+msgstr ""
+
 #: includes/widget.php:17
-msgid ""
-"An advanced widget that gives you total control over the output of your "
-"site’s most recent Posts."
+msgid "An advanced widget that gives you total control over the output of your site’s most recent Posts."
 msgstr ""
 
 #: includes/widget.php:28
@@ -86,10 +74,10 @@ msgid "Appearance"
 msgstr ""
 
 #: includes/widget.php:195
-msgid "Thank You"
+msgid "Support"
 msgstr ""
 
-#: includes/widget.php:204 includes/widget.php:315
+#: includes/widget.php:204
 msgid "Title"
 msgstr ""
 
@@ -145,44 +133,8 @@ msgstr ""
 msgid "Order"
 msgstr ""
 
-#: includes/widget.php:303
-msgid "Descending"
-msgstr ""
-
-#: includes/widget.php:304
-msgid "Ascending"
-msgstr ""
-
 #: includes/widget.php:310
 msgid "Orderby"
-msgstr ""
-
-#: includes/widget.php:313
-msgid "ID"
-msgstr ""
-
-#: includes/widget.php:314
-msgid "Author"
-msgstr ""
-
-#: includes/widget.php:316
-msgid "Date"
-msgstr ""
-
-#: includes/widget.php:317
-msgid "Modified"
-msgstr ""
-
-#: includes/widget.php:318
-msgid "Random"
-msgstr ""
-
-#: includes/widget.php:319
-msgid "Comment Count"
-msgstr ""
-
-#: includes/widget.php:320
-msgid "Menu Order"
 msgstr ""
 
 #: includes/widget.php:331
@@ -285,18 +237,6 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-#: includes/widget.php:541
-msgid "Default"
-msgstr ""
-
-#: includes/widget.php:542
-msgid "Classic"
-msgstr ""
-
-#: includes/widget.php:543
-msgid "Modern"
-msgstr ""
-
 #: includes/widget.php:545
 msgid "Please follow %1$sthis guidelines%2$s to get the best result."
 msgstr ""
@@ -307,26 +247,4 @@ msgstr ""
 
 #: includes/widget.php:557
 msgid "Custom CSS"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "Smart Recent Posts Widget"
-msgstr ""
-
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/idenovasi/smart-recent-posts-widget"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Enables advanced widget that gives you total control over the output of "
-"your site’s most recent Posts."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Idenovasi"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://idenovasi.com/"
 msgstr ""

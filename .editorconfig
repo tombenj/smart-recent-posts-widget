@@ -1,4 +1,4 @@
-# http://editorconfig.org
+# EditorConfig is awesome: https://EditorConfig.org
 
 root = true
 
@@ -8,12 +8,4 @@ indent_style = space
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-[*.{md,pug}]
-trim_trailing_whitespace = false
-
-[*.{html,php}]
-indent_size = 4
-
-[*{scss,css,js}]
 quote_type = single

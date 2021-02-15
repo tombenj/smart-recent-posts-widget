@@ -1,18 +1,19 @@
 === Smart Recent Posts Widget ===
 Contributors: idenovasi, satrya
+Donate link: https://paypal.me/satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
 Requires at least: 5.0
 Tested up to: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Provides advanced recent posts widget,you can display it with thumbnails, excerpt, date, author, comment count and more.
 
 == Description ==
 
-**Smart recent posts widget** provides flexible and highly customizable recent posts widget. Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin** and **Elementor Page Builder**.
+**Smart recent posts widget** provides flexible and highly customizable [recent posts widget](https://idenovasi.com/projects/smart-recent-posts-widget/). Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin** and **Elementor Page Builder**.
 
 = Install, Activate, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
@@ -40,7 +41,11 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-**Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).**
+= Support this project =
+
+* [Translate to your language](https://translate.wordpress.org/projects/wp-plugins/smart-recent-posts-widget/).
+* Contribute on [Github](https://github.com/satrya/smart-recent-posts-widget).
+* [Donate](https://paypal.me/satrya).
 
 == Installation ==
 
@@ -144,6 +149,9 @@ Modern style adds a nice opacity to the thumbnail and display the title on the c
 Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
+
+= 1.0.1 - Feb 15, 2021 =
+* Maintenance update
 
 = 1.0.0 =
 * Support WordPress 5.6
