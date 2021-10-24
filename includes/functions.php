@@ -9,7 +9,7 @@
  */
 function srpw_get_default_args() {
 
-    $css_defaults = ".srpw-thumbnail{\nwidth: 60px;\nheight: 60px;\n}";
+    $css_defaults = ".srpw-img {\nwidth: 60px;\nheight: 60px;\n}";
 
     $defaults = array(
 

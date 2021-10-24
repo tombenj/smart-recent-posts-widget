@@ -4,7 +4,7 @@
  * Plugin Name:  Smart Recent Posts Widget
  * Plugin URI:   https://idenovasi.com/projects/smart-recent-posts-widget/
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      1.0.1
+ * Version:      1.0.2
  * Author:       Idenovasi
  * Author URI:   https://idenovasi.com/
  * Author Email: satrya@idenovasi.com
@@ -44,12 +44,14 @@ class SMART_RPW {
         // Load the admin style and script.
         add_action('admin_enqueue_scripts', array(&$this, 'admin_scripts'));
         add_action('customize_controls_enqueue_scripts', array(&$this, 'admin_scripts'));
+        add_action('enqueue_block_editor_assets', array(&$this, 'admin_scripts'));
 
         // Register widget.
         add_action('widgets_init', array(&$this, 'register_widget'));
 
         // Enqueue the front-end styles.
         add_action('wp_enqueue_scripts', array(&$this, 'plugin_style'), 99);
+        add_action('enqueue_block_editor_assets', array(&$this, 'plugin_style'));
     }
 
     /**
@@ -91,7 +93,6 @@ class SMART_RPW {
      */
     public function admin_scripts() {
         wp_enqueue_style('srpw-admin-style', trailingslashit(SRPW_ASSETS) . 'css/srpw-admin.css', null, null);
-        wp_enqueue_script('srpw-cookie-script', trailingslashit(SRPW_ASSETS) . 'js/cookie.js', array('jquery-ui-tabs'));
     }
 
     /**

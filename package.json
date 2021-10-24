@@ -1,6 +1,6 @@
 {
   "name": "smart-recent-posts-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Idenovasi",
   "homepage": "https://idenovasi.com/",
   "licenses": [
@@ -13,7 +13,7 @@
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-wp-pot": "^2.5.0",
-    "gulp-zip": "^5.0.2"
+    "gulp-zip": "^5.1.0"
   },
   "description": "Smart recent posts widget provides flexible and highly customizable recent posts widget.",
   "main": "gulpfile.js",

@@ -2,9 +2,9 @@
 Contributors: idenovasi, satrya
 Donate link: https://paypal.me/satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
-Requires at least: 5.0
-Tested up to: 5.6
-Stable tag: 1.0.1
+Requires at least: 5.8
+Tested up to: 5.8
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -13,7 +13,9 @@ Provides advanced recent posts widget,you can display it with thumbnails, excerp
 
 == Description ==
 
-**Smart recent posts widget** provides flexible and highly customizable [recent posts widget](https://idenovasi.com/projects/smart-recent-posts-widget/). Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more! It is also support **Page Builder by Siteorigin** and **Elementor Page Builder**.
+**Due to WordPress 5.8 major update for Widgets, if you want to use this plugin, you must use WordPress 5.8.x**
+
+**Smart recent posts widget** provides flexible and highly customizable [recent posts widget](https://idenovasi.com/projects/smart-recent-posts-widget/). Allows you to display a list of the most recent posts with thumbnail, excerpt, date, author, comment count also you can display it from all or specific or multiple categories or tags, post types and much more!
 
 = Install, Activate, Done! =
 Using the widget is super easy with clear inline information. It provides a lot of options to fit your needs, need more option? Please ask on **Support** forum.
@@ -44,7 +46,7 @@ Using the widget is super easy with clear inline information. It provides a lot 
 = Support this project =
 
 * [Translate to your language](https://translate.wordpress.org/projects/wp-plugins/smart-recent-posts-widget/).
-* Contribute on [Github](https://github.com/satrya/smart-recent-posts-widget).
+* Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).
 * [Donate](https://paypal.me/satrya).
 
 == Installation ==
@@ -115,17 +117,11 @@ srpw_default_query_arguments
 1. Modern style, tested with default theme Twenty Sixteen
 2. Classic style
 3. Default style
-4. General settings
-5. Posts settings
-6. Taxonomy settings
-7. Thumbnail settings
-8. Excerpt settings
-9. Display settings
-10. Appearance settings
+4. Widget ettings
 
 == Style Explanation ==
 
-In version `0.0.3` we provide new **Style** option, there are 3 style you can choose:
+There are 3 style you can choose:
 
 - Default
 - Classic
@@ -150,8 +146,9 @@ Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
 
-= 1.0.1 - Feb 15, 2021 =
-* Maintenance update
+**Due to WordPress 5.8 major update for Widgets, if you want to (continue) use this plugin, you must use WordPress 5.8.x**
 
-= 1.0.0 =
-* Support WordPress 5.6
+= 1.0.2 =
+* Fix post status issue.
+* Support WordPress 5.8
+
