@@ -2,12 +2,12 @@
 
 /**
  * Plugin Name:  Smart Recent Posts Widget
- * Plugin URI:   https://idenovasi.com/projects/smart-recent-posts-widget/
+ * Plugin URI:   https://wordpress.org/plugins/smart-recent-posts-widget/
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
- * Version:      1.0.2
- * Author:       Idenovasi
- * Author URI:   https://idenovasi.com/
- * Author Email: satrya@idenovasi.com
+ * Version:      1.0.3
+ * Author:       satrya
+ * Author URI:   https://profiles.wordpress.org/satrya/
+ * Author Email: gouldbenjamin135@gmail.com
  * Text Domain:  smart-recent-posts-widget
  * Domain Path:  /languages
  *

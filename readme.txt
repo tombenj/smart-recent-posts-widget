@@ -1,10 +1,10 @@
 === Smart Recent Posts Widget ===
-Contributors: idenovasi, satrya
+Contributors: satrya
 Donate link: https://paypal.me/satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
 Requires at least: 5.8
-Tested up to: 5.8
-Stable tag: 1.0.2
+Tested up to: 6.5.4
+Stable tag: 1.0.3
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -117,7 +117,7 @@ srpw_default_query_arguments
 1. Modern style, tested with default theme Twenty Sixteen
 2. Classic style
 3. Default style
-4. Widget ettings
+4. Widget settings
 
 == Style Explanation ==
 

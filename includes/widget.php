@@ -74,9 +74,11 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
         // Validate post_type submissions
         $name = get_post_types(array('public' => true), 'names');
         $types = array();
-        foreach ($new_instance['post_type'] as $type) {
-            if (in_array($type, $name)) {
-                $types[] = $type;
+        if (isset($new_instance['post_type']) && is_array($new_instance['post_type'])) {
+            foreach ($new_instance['post_type'] as $type) {
+                if (in_array($type, $name)) {
+                    $types[] = sanitize_text_field($type);
+                }
             }
         }
         if (empty($types)) {
@@ -105,22 +107,22 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
         $instance['exclude_current']  = isset($new_instance['exclude_current']) ? (bool) $new_instance['exclude_current'] : false;
         $instance['limit']            = intval($new_instance['limit']);
         $instance['offset']           = intval($new_instance['offset']);
-        $instance['order']            = esc_attr($new_instance['order']);
-        $instance['orderby']          = esc_attr($new_instance['orderby']);
+        $instance['order']            = sanitize_text_field($new_instance['order']);
+        $instance['orderby']          = sanitize_text_field($new_instance['orderby']);
         $instance['post_type']        = $types;
-        $instance['post_status']      = esc_attr($new_instance['post_status']);
+        $instance['post_status']      = sanitize_text_field($new_instance['post_status']);
 
         // Taxonomy tab
-        $instance['cat']              = $new_instance['cat'];
-        $instance['tag']              = $new_instance['tag'];
-        $instance['cat_exclude']      = $new_instance['cat_exclude'];
-        $instance['tag_exclude']      = $new_instance['tag_exclude'];
+        $instance['cat']              = array_map('intval', (array) $new_instance['cat']);
+        $instance['tag']              = array_map('intval', (array) $new_instance['tag']);
+        $instance['cat_exclude']      = array_map('intval', (array) $new_instance['cat_exclude']);
+        $instance['tag_exclude']      = array_map('intval', (array) $new_instance['tag_exclude']);
 
         // Thumbnail tab
         $instance['thumbnail']        = isset($new_instance['thumbnail']) ? (bool) $new_instance['thumbnail'] : false;
-        $instance['thumbnail_size']   = esc_attr($new_instance['thumbnail_size']);
+        $instance['thumbnail_size']   = sanitize_text_field($new_instance['thumbnail_size']);
         $instance['thumbnail_default'] = esc_url_raw($new_instance['thumbnail_default']);
-        $instance['thumbnail_align']  = esc_attr($new_instance['thumbnail_align']);
+        $instance['thumbnail_align']  = sanitize_text_field($new_instance['thumbnail_align']);
 
         // Excerpt tab
         $instance['excerpt']          = isset($new_instance['excerpt']) ? (bool) $new_instance['excerpt'] : false;
@@ -137,9 +139,9 @@ class SMART_RECENT_POSTS_WIDGET extends WP_Widget {
         $instance['author']           = isset($new_instance['author']) ? (bool) $new_instance['author'] : false;
 
         // Appearance tab
-        $instance['style']            = esc_attr($new_instance['style']);
+        $instance['style']            = sanitize_text_field($new_instance['style']);
         $instance['new_tab']          = isset($new_instance['new_tab']) ? (bool) $new_instance['new_tab'] : false;
-        $instance['css']              = $new_instance['css'];
+        $instance['css']              = wp_strip_all_tags($new_instance['css']);
 
         return $instance;
     }

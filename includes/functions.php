@@ -59,7 +59,7 @@ function srpw_get_default_args() {
         // Appearance tab
         'style'            => 'default',
         'new_tab'          => false,
-        'css'              => $css_defaults,
+        'css'              => wp_strip_all_tags($css_defaults),
     );
 
     // Allow plugins/themes developer to filter the default arguments.
@@ -106,7 +106,7 @@ function srpw_get_recent_posts($args = array()) {
 
         // Custom CSS.
         if (!empty($args['css'])) {
-            $html .= '<style>' . $args['css'] . '</style>';
+            $html .= '<style>' . esc_html($args['css']) . '</style>';
         }
 
         $html .= '<ul class="srpw-ul">';
@@ -120,7 +120,7 @@ function srpw_get_recent_posts($args = array()) {
 
                 // Check if post has post thumbnail.
                 if (has_post_thumbnail()) :
-                    $html .= '<a class="srpw-img ' . esc_attr($args['thumbnail_align']) . '" href="' . esc_url(get_permalink()) . '" target="' . $target . '">';
+                    $html .= '<a class="srpw-img ' . esc_attr($args['thumbnail_align']) . '" href="' . esc_url(get_permalink()) . '" target="' . esc_attr($target) . '">';
                     $html .= get_the_post_thumbnail(
                         get_the_ID(),
                         $args['thumbnail_size'],
@@ -134,7 +134,7 @@ function srpw_get_recent_posts($args = array()) {
                 // Display default image.
                 elseif (!empty($args['thumbnail_default'])) :
                     $html .= sprintf(
-                        '<a class="srpw-img ' . esc_attr($args['thumbnail_align']) . '" href="%1$s" target="' . $target . '" rel="bookmark"><img class="srpw-thumbnail srpw-default-thumbnail" src="%2$s" alt="%3$s"></a>',
+                        '<a class="srpw-img ' . esc_attr($args['thumbnail_align']) . '" href="%1$s" target="' . esc_attr($target) . '" rel="bookmark"><img class="srpw-thumbnail srpw-default-thumbnail" src="%2$s" alt="%3$s"></a>',
                         esc_url(get_permalink()),
                         esc_url($args['thumbnail_default']),
                         esc_attr(get_the_title())
@@ -147,7 +147,7 @@ function srpw_get_recent_posts($args = array()) {
             $html .= '<div class="srpw-content">';
 
             if ($args['post_title']) :
-                $html .= '<a class="srpw-title" href="' . esc_url(get_permalink()) . '" target="' . $target . '">' . esc_attr(get_the_title()) . '</a>';
+                $html .= '<a class="srpw-title" href="' . esc_url(get_permalink()) . '" target="' . esc_attr($target) . '">' . esc_html(get_the_title()) . '</a>';
             endif;
 
             $html .= '<div class="srpw-meta">';
@@ -155,40 +155,40 @@ function srpw_get_recent_posts($args = array()) {
             if ($args['date']) :
                 $date = get_the_date();
                 if ($args['date_relative']) :
-                    $date = sprintf(esc_html__('%s ago', 'smart-recent-posts-widget'), human_time_diff(get_the_date('U'), current_time('timestamp')));
+                    $date = sprintf(esc_html__('%s ago', 'smart-recent-posts-widget'), esc_html(human_time_diff(get_the_date('U'), current_time('timestamp'))));
                 endif;
-                $html .= '<time class="srpw-time published" datetime="' . esc_html(get_the_date('c')) . '">' . esc_html($date) . '</time>';
+                $html .= '<time class="srpw-time published" datetime="' . esc_attr(get_the_date('c')) . '">' . esc_html($date) . '</time>';
 
             elseif ($args['date_modified']) : // if both date functions are provided, we use date to be backwards compatible
                 $date = get_the_modified_date();
                 if ($args['date_relative']) :
-                    $date = sprintf(esc_html__('%s ago', 'smart-recent-posts-widget'), human_time_diff(get_the_modified_date('U'), current_time('timestamp')));
+                    $date = sprintf(esc_html__('%s ago', 'smart-recent-posts-widget'), esc_html(human_time_diff(get_the_modified_date('U'), current_time('timestamp'))));
                 endif;
-                $html .= '<time class="srpw-time modified" datetime="' . esc_html(get_the_modified_date('c')) . '">' . esc_html($date) . '</time>';
+                $html .= '<time class="srpw-time modified" datetime="' . esc_attr(get_the_modified_date('c')) . '">' . esc_html($date) . '</time>';
             endif;
 
             if ($args['comment_count']) :
                 if (get_comments_number() == 0) {
                     $comments = esc_html__('No Comments', 'smart-recent-posts-widget');
                 } elseif (get_comments_number() > 1) {
-                    $comments = sprintf(esc_html__('%s Comments', 'smart-recent-posts-widget'), get_comments_number());
+                    $comments = sprintf(esc_html__('%s Comments', 'smart-recent-posts-widget'), esc_html(get_comments_number()));
                 } else {
                     $comments = esc_html__('1 Comment', 'smart-recent-posts-widget');
                 }
-                $html .= '<a class="srpw-comment comment-count" href="' . get_comments_link() . '" target="' . $target . '">' . $comments . '</a>';
+                $html .= '<a class="srpw-comment comment-count" href="' . esc_url(get_comments_link()) . '" target="' . esc_attr($target) . '">' . esc_html($comments) . '</a>';
             endif;
 
             if ($args['author']) :
-                $html .= '<a class="srpw-author" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '" target="' . $target . '">' . get_the_author() . '</a>';
+                $html .= '<a class="srpw-author" href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '" target="' . esc_attr($target) . '">' . esc_html(get_the_author()) . '</a>';
             endif;
 
             $html .= "</div>";
 
             if ($args['excerpt']) :
                 $html .= '<div class="srpw-summary">';
-                $html .= '<p>' . wp_trim_words(apply_filters('srpw_excerpt', get_the_excerpt()), $args['length']) . '</p>';
+                $html .= '<p>' . esc_html(wp_trim_words(apply_filters('srpw_excerpt', get_the_excerpt()), $args['length'])) . '</p>';
                 if ($args['readmore']) :
-                    $html .= '<a href="' . esc_url(get_permalink()) . '" class="srpw-more-link" target="' . $target . '">' . $args['readmore_text'] . '</a>';
+                    $html .= '<a href="' . esc_url(get_permalink()) . '" class="srpw-more-link" target="' . esc_attr($target) . '">' . esc_html($args['readmore_text']) . '</a>';
                 endif;
                 $html .= '</div>';
             endif;
@@ -212,7 +212,7 @@ function srpw_get_recent_posts($args = array()) {
     do_action('srpw_after_loop');
 
     // Return the  posts markup.
-    return $args['before'] . apply_filters('srpw_markup', $html) . $args['after'];
+    return esc_html($args['before']) . apply_filters('srpw_markup', $html) . esc_html($args['after']);
 }
 
 /**
@@ -220,40 +220,53 @@ function srpw_get_recent_posts($args = array()) {
  */
 function srpw_get_posts($args = array()) {
 
+    $offset             = isset($args['offset']) ? intval($args['offset']) : 0;
+    $limit              = isset($args['limit']) ? intval($args['limit']) : 5;
+    $orderby            = isset($args['orderby']) ? sanitize_text_field($args['orderby']) : 'date';
+    $order              = isset($args['order']) ? sanitize_text_field($args['order']) : 'DESC';
+    $post_type          = isset($args['post_type']) ? array_map('sanitize_text_field', (array) $args['post_type']) : array('post');
+    $post_status        = isset($args['post_status']) ? sanitize_text_field($args['post_status']) : 'publish';
+    $ignore_sticky      = isset($args['ignore_sticky']) ? (bool) $args['ignore_sticky'] : false;
+    $exclude_current    = isset($args['exclude_current']) ? (bool) $args['exclude_current'] : false;
+    $cat                = isset($args['cat']) ? array_map('intval', (array) $args['cat']) : array();
+    $tag                = isset($args['tag']) ? array_map('intval', (array) $args['tag']) : array();
+    $cat_exclude        = isset($args['cat_exclude']) ? array_map('intval', (array) $args['cat_exclude']) : array();
+    $tag_exclude        = isset($args['tag_exclude']) ? array_map('intval', (array) $args['tag_exclude']) : array();
+
     // Query arguments.
     $query = array(
-        'offset'              => $args['offset'],
-        'posts_per_page'      => $args['limit'],
-        'orderby'             => $args['orderby'],
-        'order'               => $args['order'],
-        'post_type'           => $args['post_type'],
-        'post_status'         => $args['post_status'],
-        'ignore_sticky_posts' => $args['ignore_sticky'],
+        'offset'              => $offset,
+        'posts_per_page'      => $limit,
+        'orderby'             => $orderby,
+        'order'               => $order,
+        'post_type'           => $post_type,
+        'post_status'         => $post_status,
+        'ignore_sticky_posts' => $ignore_sticky,
     );
 
     // Exclude current post
-    if ($args['exclude_current']) {
+    if ($exclude_current) {
         $query['post__not_in'] = array(get_the_ID());
     }
 
     // Include posts based on selected categories.
-    if (!empty($args['cat'])) {
-        $query['category__in'] = $args['cat'];
+    if (!empty($cat)) {
+        $query['category__in'] = $cat;
     }
 
     // Include posts based on selected post tags.
-    if (!empty($args['tag'])) {
-        $query['tag__in'] = $args['tag'];
+    if (!empty($tag)) {
+        $query['tag__in'] = $tag;
     }
 
-    // Exlucde posts based on selected categories.
-    if (!empty($args['cat_exclude'])) {
-        $query['category__not_in'] = $args['cat_exclude'];
+    // Exclude posts based on selected categories.
+    if (!empty($cat_exclude)) {
+        $query['category__not_in'] = $cat_exclude;
     }
 
     // Exclude posts based on selected post tags.
-    if (!empty($args['tag_exclude'])) {
-        $query['tag__not_in'] = $args['tag_exclude'];
+    if (!empty($tag_exclude)) {
+        $query['tag__not_in'] = $tag_exclude;
     }
 
     // Allow plugins/themes developer to filter the default query.
