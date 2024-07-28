@@ -4,7 +4,7 @@ Donate link: https://paypal.me/satrya
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
 Requires at least: 5.8
 Tested up to: 6.5.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -145,6 +145,10 @@ Modern style adds a nice opacity to the thumbnail and display the title on the c
 Please open the **Screenshot** tab above to see the style design.
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix XSS issue.
+
 
 **Due to WordPress 5.8 major update for Widgets, if you want to (continue) use this plugin, you must use WordPress 5.8.x**
 
